@@ -1,0 +1,58 @@
+﻿@page "/create"
+@using Net.ConnectCode.Barcode;
+
+<PageTitle>Create</PageTitle>
+
+<h1>Create Barcode</h1>
+
+<p>Type in the field below to generate a barcode.</p>
+
+<div style="margin-top: 24px">
+    <label for="userinput" style="padding-right: 6px">Input:</label>
+    <input type="text" id="userinput" name="userinput" @bind="@inputValue" @oninput="OnInputEvent"><br><br>
+    <label for="preview" style="padding-right: 4px">Live Preview</label>
+    <input type="checkbox" id="preview" name="preview" @bind="@previewValue" @oninput="OnPreviewChange"><br><br>
+</div>
+
+<button class="btn btn-primary" disabled="@(previewValue || inputValue.Length < 1)" @onclick="OnGenerateClick">Generate Barcode</button>
+
+<div hidden="@((!previewValue && !generated) || (previewValue && inputValue.Length < 1))" style="padding-top: 48px">
+    <div id="barcode">@barcode</div>
+    <div id="barcode-text">@barcodeValue</div>
+</div>
+
+@code {
+
+    string inputValue = "";
+    bool previewValue = true;
+    bool generated = true;
+    string barcode = "";
+    string barcodeValue = "";
+
+    void OnInputEvent(ChangeEventArgs changeEvent)
+    {
+        inputValue = (string)(changeEvent.Value ?? "");
+        if (previewValue) GenerateBarcode();
+    }
+
+    void OnPreviewChange(ChangeEventArgs mouseEvent){
+        if ((bool)(mouseEvent.Value ?? true)) GenerateBarcode();
+    }
+
+    void OnGenerateClick()
+    {
+        generated = true;
+        GenerateBarcode();
+    }
+
+    void GenerateBarcode()
+    {
+        BarcodeFonts bcf = new BarcodeFonts();
+        bcf.BarcodeType = BarcodeFonts.BarcodeEnum.Code39;
+        bcf.CheckDigit = BarcodeFonts.YesNoEnum.No;
+        bcf.Data = inputValue;
+        bcf.encode();
+        barcode = bcf.EncodedData;
+        barcodeValue = bcf.HumanText;
+    }
+}
