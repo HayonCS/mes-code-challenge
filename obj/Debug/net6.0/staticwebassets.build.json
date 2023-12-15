@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "2tLHqqFCA3KmQLrx/3sPkag48/02yFYK3OKav2CEMk0=",
+  "Source": "config-api",
+  "BasePath": "_content/config-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
