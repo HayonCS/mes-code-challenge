@@ -1,7 +1,9 @@
 # Important
 
 The JSON files in the project ('bunkbed-bom.json' and 'bunkbed-routing.json') are copied to the build folder on compilation.
+
 If you do not want this to happen every time building the project, you can remove the setting found in the '.csproj' file.
+![image](https://github.com/HayonCS/mes-code-challenge/assets/90340842/691fa7b5-148e-4c66-b852-6a6c7ee03de0)
 
 # Bunk Bed Build - Takt Time Calculator
 
