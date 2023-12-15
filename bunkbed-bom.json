@@ -1,0 +1,187 @@
+{
+    "description": "Bunk Bed",
+    "quantity": 1,
+    "source": "Completed Item",
+    "bom": [
+        {
+            "description": "Manual",
+            "quantity": 1,
+            "step": 1,
+            "source": "Provided",
+            "bom": []
+        },
+        {
+            "description": "Bed Frame",
+            "quantity": 1,
+            "step": 30,
+            "source": "Partial Item",
+            "bom": [
+                {
+                    "description": "Long Rail",
+                    "quantity": 2,
+                    "step": 5,
+                    "source": "Provided",
+                    "bom": []
+                },
+                {
+                    "description": "Short Rail",
+                    "quantity": 2,
+                    "step": 5,
+                    "source": "Provided",
+                    "bom": []
+                },
+                {
+                    "description": "Slats",
+                    "quantity": 15,
+                    "step": 10,
+                    "source": "Provided",
+                    "bom": []
+                },
+                {
+                    "description": "2 inch Screws",
+                    "quantity": 30,
+                    "step": 15,
+                    "source": "Provided",
+                    "bom": []
+                }
+            ]
+        },
+        {
+            "description": "Upper Bunk Bed",
+            "quantity": 1,
+            "step": 100,
+            "source": "Partial Item",
+            "bom": [
+                {
+                    "description": "Bed Frame",
+                    "quantity": 1,
+                    "step": 65,
+                    "source": "Partial Item",
+                    "bom": [
+                        {
+                            "description": "Long Rail",
+                            "quantity": 2,
+                            "step": 35,
+                            "source": "Provided",
+                            "bom": []
+                        },
+                        {
+                            "description": "Short Rail",
+                            "quantity": 2,
+                            "step": 35,
+                            "source": "Provided",
+                            "bom": []
+                        },
+                        {
+                            "description": "Slats",
+                            "quantity": 15,
+                            "step": 40,
+                            "source": "Provided",
+                            "bom": []
+                        },
+                        {
+                            "description": "2 inch Screws",
+                            "quantity": 30,
+                            "step": 45,
+                            "source": "Provided",
+                            "bom": []
+                        }
+                    ]
+                },
+                {
+                    "description": "Saftey Railing",
+                    "quantity": 1,
+                    "step": 90,
+                    "source": "Partial Item",
+                    "bom": [
+                        {
+                            "description": "Long Vertical Saftey Rail",
+                            "quantity": 2,
+                            "step": 65,
+                            "source": "Provided",
+                            "bom": []
+                        },
+                        {
+                            "description": "Long Vertical Saftey Rail With Entry",
+                            "quantity": 2,
+                            "step": 70,
+                            "source": "Provided",
+                            "bom": []
+                        },
+                        {
+                            "description": "Short Vertical Safety Rail",
+                            "quantity": 4,
+                            "step": 75,
+                            "source": "Provided",
+                            "bom": []
+                        },
+                        {
+                            "description": "1 inch Screws",
+                            "quantity": 16,
+                            "step": 80,
+                            "source": "Provided",
+                            "bom": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "Ladder",
+            "quantity": 1,
+            "step": 120,
+            "source": "Partial Item",
+            "bom": [
+                {
+                    "description": "Vertical Rail",
+                    "quantity": 2,
+                    "step": 105,
+                    "source": "Provided",
+                    "bom": []
+                },
+                {
+                    "description": "Horizontal Rail",
+                    "quantity": 4,
+                    "step": 105,
+                    "source": "Provided",
+                    "bom": []
+                },
+                {
+                    "description": "2 inch Screws",
+                    "quantity": 16,
+                    "step": 110,
+                    "source": "Provided",
+                    "bom": []
+                },
+                {
+                    "description": "Hooks",
+                    "quantity": 2,
+                    "step": 115,
+                    "source": "Provided",
+                    "bom": []
+                },
+                {
+                    "description": "1 inch Screws",
+                    "quantity": 4,
+                    "step": 115,
+                    "source": "Provided",
+                    "bom": []
+                }
+            ]
+        },
+        {
+            "description": "Bracket",
+            "quantity": 8,
+            "step": 135,
+            "source": "Provided",
+            "bom": []
+        },
+        {
+            "description": "1 inch Screws",
+            "quantity": 32,
+            "step": 135,
+            "source": "Provided",
+            "bom": []
+        }
+    ]
+}

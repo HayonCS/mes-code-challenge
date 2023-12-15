@@ -1,0 +1,112 @@
+[
+    {
+        "step": 1,
+        "description": "Read manual and verify parts.",
+        "taktTime": 5
+    },
+    {
+        "step": 5,
+        "description": "Dry fit outter frame of lower bed.",
+        "taktTime": 10
+    },
+    {
+        "step": 10,
+        "description": "Place down slats.",
+        "taktTime": 5
+    },
+    {
+        "step": 15,
+        "description": "Screw outter frame together and slats down.",
+        "taktTime": 20
+    },
+    {
+        "step": 30,
+        "description": "Place first bed frame aside.",
+        "taktTime": 1
+    },
+    {
+        "step": 35,
+        "description": "Dry fit outter frame of upper bed.",
+        "taktTime": 10
+    },
+    {
+        "step": 40,
+        "description": "Place down slats.",
+        "taktTime": 5
+    },
+    {
+        "step": 45,
+        "description": "Screw outter frame together and slats down.",
+        "taktTime": 20
+    },
+    {
+        "step": 60,
+        "description": "Verify bed frames are identical.",
+        "taktTime": 1
+    },
+    {
+        "step": 65,
+        "description": "Dry fit back long safety railing for upper bed frame.",
+        "taktTime": 5
+    },
+    {
+        "step": 70,
+        "description": "Dry fit front long safety railing for upper bed frame.",
+        "taktTime": 5
+    },
+    {
+        "step": 75,
+        "description": "Dry fit short safety railing at head AND foot of upper bed frame.",
+        "taktTime": 10
+    },
+    {
+        "step": 80,
+        "description": "Screw safety railings in to upper bed frame.",
+        "taktTime": 20
+    },
+    {
+        "step": 90,
+        "description": "Verify railings are secure.",
+        "taktTime": 5
+    },
+    {
+        "step": 100,
+        "description": "Place upper bed frame to side.",
+        "taktTime": 1
+    },
+    {
+        "step": 105,
+        "description": "Dry fit long sides and rungs of ladder together.",
+        "taktTime": 10
+    },
+    {
+        "step": 110,
+        "description": "Screw ladder together to secure it.",
+        "taktTime": 15
+    },
+    {
+        "step": 115,
+        "description": "Screw hooks to back of ladder.",
+        "taktTime": 10
+    },
+    {
+        "step": 120,
+        "description": "Place ladder aside.",
+        "taktTime": 1
+    },
+    {
+        "step": 130,
+        "description": "Place upper bunk on top of lower.",
+        "taktTime": 15
+    },
+    {
+        "step": 135,
+        "description": "Secure bunks together with brackets.",
+        "taktTime": 20
+    },
+    {
+        "step": 150,
+        "description": "Attach ladder and enjoy!",
+        "taktTime": 5
+    }
+]
