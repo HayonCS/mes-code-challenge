@@ -9,10 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-	<ContentWithTargetPath Include="*.json">
-	  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  <TargetPath>%(Filename)%(Extension)</TargetPath>
-	</ContentWithTargetPath>
+    <ContentWithTargetPath Include="*.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>%(Filename)%(Extension)</TargetPath>
+    </ContentWithTargetPath>
   </ItemGroup>
 
 </Project>
